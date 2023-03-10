@@ -1,0 +1,95 @@
+.containerBlock {
+  display: flex;
+  width: 55rem;
+  height: 20rem;
+  border-radius: 14px;
+  box-shadow: 0px 0px 24px #00000029;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.imageBlock {
+  width: 50%;
+  text-align: center;
+}
+
+.imageLogo {
+  width: 20rem;
+  height: 18rem;
+  margin-top: 1rem;
+}
+
+.formDiv {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  border-left: 1px solid #d3c7c7;
+  display: grid;
+  align-items: center;
+}
+
+.inputEmail,
+.inputPass {
+  margin-bottom: 3rem;
+}
+
+.messageError {
+  color: red;
+}
+
+@media (max-width: 1574px) {
+  .containerAdd {
+    width: 23rem;
+    height: 13rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .containerBlock {
+    width: 35rem;
+  }
+
+  .imageLogo {
+    width: 13rem;
+    height: 11rem;
+    margin-top: 4rem !important;
+  }
+}
+
+@media (max-width: 732px) {
+  .containerBlock {
+    width: 30rem;
+  }
+
+  .imageLogo {
+    width: 10rem;
+    height: 8rem;
+    margin-top: 6rem !important;
+  }
+}
+
+@media (max-width: 548px) {
+  .containerBlock {
+    width: 20rem;
+  }
+
+  .imageLogo {
+    width: 7rem;
+    height: 6rem;
+    margin-top: 7rem !important;
+  }
+
+  .inputEmail,
+  .inputPass {
+    width: 7rem !important;
+  }
+
+  .formDiv {
+    margin: auto;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+}

@@ -1,0 +1,36 @@
+.containerIMGLogin {
+  background-color: rgba(94, 88, 88, 0.136);
+  height: 3.5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  min-width: 100vw;
+  width: 25rem;
+}
+
+.logoHeader {
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.logOut {
+  display: flex;
+  width: 50%;
+  font-weight: bold;
+  margin-right: 2rem;
+  color: white;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.logOutText {
+  margin-right: 0.5rem;
+}
+
+.imageLogoHeader {
+  margin-top: 0.5rem;
+}

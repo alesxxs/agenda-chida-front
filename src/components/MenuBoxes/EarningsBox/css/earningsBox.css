@@ -1,0 +1,115 @@
+.containerEarnings {
+  margin-top: 3rem;
+  width: 48rem;
+  height: 15rem;
+  border-radius: 30px;
+  box-shadow: 0px 0px 24px #00000029;
+  /* border: 1px solid #ffffff38; */
+  background-color: #ffffff;
+}
+
+.titleEarningsBox {
+  background-color: rgba(123, 107, 145, 0.136);
+  height: 3.5rem;
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+  color: black;
+  font-weight: bolder;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexEarnings {
+  display: flex;
+  justify-content: space-around;
+  height: 11.4rem;
+}
+
+.daily,
+.week,
+.monthly {
+  width: 33.3%;
+  height: 100%;
+}
+
+.week {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+  border-left: 1px solid rgba(224, 224, 224, 1);
+}
+
+.titleDaily,
+.titleWeek,
+.titleMonthly,
+.earningsDaily,
+.earningsWeekly,
+.earningsMonthly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleDaily,
+.titleWeek,
+.titleMonthly {
+  font-weight: bolder;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.earningsDaily,
+.earningsWeekly,
+.earningsMonthly {
+  margin-top: 2rem;
+}
+
+@media (max-width: 1574px) {
+  .containerEarnings {
+    margin-top: 3rem;
+    width: 46rem;
+    height: 13rem;
+  }
+
+  .daily,
+  .week,
+  .monthly {
+    width: 33.3%;
+    height: 9.5rem;
+  }
+
+  .earningsDaily,
+  .earningsWeekly,
+  .earningsMonthly {
+    margin-top: 1.1rem;
+  }
+}
+
+@media (max-width: 1430px) {
+  .containerEarnings {
+    width: 72.45rem;
+  }
+}
+
+@media (max-width: 1260px) {
+  .containerEarnings {
+    width: 60.45rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .containerEarnings {
+    width: 40.45rem;
+  }
+}
+
+@media (max-width: 732px) {
+  .containerEarnings {
+    width: 30.45rem;
+  }
+}
+
+@media (max-width: 548px) {
+  .containerEarnings {
+    width: 20.45rem;
+  }
+}

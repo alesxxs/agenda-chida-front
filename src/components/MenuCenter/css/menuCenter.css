@@ -1,0 +1,19 @@
+.menuCenterMain {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 6.5rem auto;
+  flex-wrap: wrap;
+  height: auto !important;
+}
+
+@media (max-width: 1430px) {
+  .menuCenterMain {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    margin: 6.5rem auto;
+    height: auto !important;
+  }
+}

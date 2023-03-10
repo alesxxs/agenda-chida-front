@@ -1,0 +1,123 @@
+.firstBlock,
+.secondBlock,
+.thirdBlock,
+.fourthBlock,
+.fifthBlock,
+.sixthBlock {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.calendarCustomInput,
+.timeCustomInput,
+.anticipoField,
+.serviceField,
+.referenceField,
+.finalPriceField,
+.phoneNumberField,
+.instaField,
+.notesField {
+  display: grid;
+  width: 14.7rem;
+  margin-left: 2px;
+}
+
+.imageReference {
+  display: grid;
+}
+
+.sixthBlock {
+  margin-left: 2px;
+}
+
+.dateCalendar,
+.textAreaCustom,
+.imageReference,
+.timeClock,
+.timeFinishClock {
+  font-size: 15px;
+  color: #767676;
+}
+
+.textAreaCustom textarea {
+  border: 1px solid #767676;
+}
+
+.groupButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dateCalendar > div {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1574px) {
+  .clientName,
+  .lastName,
+  .calendarCustomInput,
+  .timeCustomInput,
+  .anticipoField,
+  .serviceField,
+  .referenceField,
+  .finalPriceField,
+  .phoneNumberField,
+  .instaField,
+  .notesField {
+    display: grid;
+    width: 10.7rem;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 620px) {
+  .clientName,
+  .lastName,
+  .dateCalendar,
+  .calendarCustomInput,
+  .timeCustomInput,
+  .anticipo,
+  .service,
+  .phoneNumber,
+  .instagram,
+  .timeFinishClock,
+  .groupButtons,
+  .notes {
+    margin-bottom: 1rem;
+  }
+
+  .finalPrice {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .firstBlock,
+  .secondBlock,
+  .thirdBlock,
+  .fourthBlock,
+  .fifthBlock,
+  .sixthBlock {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-bottom: 0rem;
+  }
+
+  .dateCalendar > div {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 448px) {
+  .groupButtons {
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .groupButtons > button {
+    margin-bottom: 1rem;
+  }
+}

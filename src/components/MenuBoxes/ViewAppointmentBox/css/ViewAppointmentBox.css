@@ -1,0 +1,74 @@
+.appointmentContainer {
+  width: 55rem;
+  height: 15rem;
+  border-radius: 30px;
+  box-shadow: 0px 0px 24px #00000029;
+  /* border: 1px solid #ffffff38; */
+  background-color: #ffffff;
+  display: grid;
+}
+
+.titleBox {
+  background-color: rgba(123, 107, 145, 0.136);
+  height: 3.5rem;
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+  color: black;
+  font-weight: bolder;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.click:focus {
+  outline: none;
+}
+
+.all4today {
+  text-align: center;
+}
+
+.zels {
+  font-weight: bolder !important;
+}
+
+@media (max-width: 1574px) {
+  .appointmentContainer {
+    width: 53rem;
+    height: 13rem;
+  }
+}
+@media (max-width: 1430px) {
+  .appointmentContainer {
+    width: 72.45rem;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 1260px) {
+  .appointmentContainer {
+    width: 60.45rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .appointmentContainer {
+    width: 40.45rem;
+  }
+}
+
+@media (max-width: 732px) {
+  .appointmentContainer {
+    width: 30.45rem;
+  }
+}
+
+@media (max-width: 548px) {
+  .appointmentContainer {
+    width: 20.45rem;
+  }
+}
